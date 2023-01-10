@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+int a,follow,i=0,wing;
+cin>>a;
+for(i;i<a;i++)
+{
+   cin>>follow;
+   cin>>wing;
+   if (follow>wing*10)
+   {
+       cout<<"YES"<<endl;
+   }
+   else 
+   {
+       cout<<"NO"<<endl;
+   }
+}
+
+	return 0;
+}
