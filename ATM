@@ -1,0 +1,22 @@
+//if the withdrawal is multiply by 5 and not exceed the initial bank balance then transaction successful
+
+#include <iostream>
+using namespace std;
+
+int main() {
+   int a;
+   float w;
+  cin>>a;
+  cin>>w;
+  if(a%5==0 && a<=w-0.5)
+  {
+      w=w-a-0.5;
+      cout<<w;
+  }
+  else
+  {
+      
+      cout<<w;
+  }
+	return 0;
+}
