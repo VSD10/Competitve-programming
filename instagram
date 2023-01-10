@@ -1,3 +1,4 @@
+//if followers is 10 times greater than following its scam
 #include <iostream>
 using namespace std;
 
