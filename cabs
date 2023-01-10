@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main(void) {
+int c,a,b,i;
+scanf("%d",&a);
+
+for(i=0;i<a;i++)
+{
+    scanf("%d%d",&b,&c);
+if (b<c)
+{
+    printf("FIRST\n");
+
+}
+else if (b>c)
+{
+    printf("SECOND\n");
+    }
+else
+{
+    printf("ANY\n");
+}
+}
+
+	return 0;
+}
+
