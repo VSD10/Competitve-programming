@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+int a,b,c,i;
+cin>>a;
+for(i=0;i<a;i++)
+{
+    cin>>b>>c;
+    if(b<c)
+    {
+        cout<<"REPAIR\n";
+    }
+    else if (b==c)
+    {
+        cout<<"ANY\n";
+    }
+    else
+    {
+        cout<<"NEW PHONE\n";
+    }
+}
+	return 0;
+}
+
