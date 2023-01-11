@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+int a[5],b,c,i;
+cin>>b;
+for(i=0;i<b;i++)
+{
+    cin>>a[0]>>a[1]>>a[2]>>a[3];
+    a[0]=a[0]-a[2];
+    a[1]=a[1]-a[3];
+    if (a[0]<a[1])
+    {
+        cout<<"First\n";
+    }
+    else if (a[0]==a[1])
+    {
+        cout<<"Any\n";
+    }
+    else
+    {
+        cout<<"Second\n";
+    }
+}
+	return 0;
+}
