@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+int a,b,c,d,i;
+cin>>a;
+for(i=0;i<a;i++)
+{
+    cin>>b>>c>>d;
+    if(b<=(c*d))
+    {
+        cout<<"Yes\n";
+    }
+    else
+    {
+        cout<<"NO\n";
+    }
+}
+	return 0;
+}
