@@ -1,0 +1,24 @@
+#angles are not equal
+#include <iostream>
+using namespace std;
+
+int main() {
+     int n=1,a[3],c;
+     cin>>c;
+     for(n;n<=c;n++)
+     {
+         cin>>a[0];
+         cin>>a[1];
+         cin>>a[2];
+        
+         if(a[0]<a[1] && a[1]<a[2])
+         {
+             cout<<"Yes"<<endl;
+         }
+         else
+         {
+             cout<<"No"<<endl;
+         }
+     }
+	return 0;
+}
