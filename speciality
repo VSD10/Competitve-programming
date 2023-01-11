@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int a,i,s,e,t;
+	cin>>a;
+	for(i=0;i<a;i++)
+	{
+	    cin>>s>>t>>e;
+	    if((s>e)&&(s>t))
+	    {
+	        cout<<"Setter\n";
+	    }
+	    else if((e>s)&&(e>t))
+	    {
+	        cout<<"Editorialist"<<endl;
+	    }
+	    else
+	    {
+	        cout<<"Tester"<<endl;
+	    }
+	}
+	return 0;
+}
