@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+int c,a[3],i,tot;
+cin>>c;
+for(i=0;i<c;i++)
+{
+    cin>>a[0]>>a[1]>>a[2];
+    tot=a[0]+a[1]+a[2];
+   
+    
+    if((a[0]>9) && (a[1]>9) && (a[2]>9) && tot>99)
+    {
+        cout<<"Pass"<<endl;
+    }
+    else
+    {
+        cout<<"Fail"<<endl;
+    }
+}
+	return 0;
+}
