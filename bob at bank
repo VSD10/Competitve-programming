@@ -1,0 +1,17 @@
+\\b=inital am c=dep d=deducted f=month
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int a,b,c,d,f,i=0;
+	cin>>a;
+	for(i;i<a;i++)
+	{
+	    cin>>b>>c>>d>>f;
+	    cout<<b+(c-d)*f<<endl;
+	}
+	
+	return 0;
+}
