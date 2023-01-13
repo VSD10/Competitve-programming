@@ -1,0 +1,17 @@
+\\person code 10 problem per day count of it.
+#include <iostream>
+using namespace std;
+
+int main() {
+  int a[4],i,j=0;
+  for(i=0;i<4;i++)
+  {
+      cin>>a[i];
+      if (a[i]>9)
+      {
+          j++;
+      }
+  }
+  cout<<j;
+	return 0;
+}
