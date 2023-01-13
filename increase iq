@@ -1,0 +1,17 @@
+\\einstein eq 170 then a be the f of sound must be greater than 170
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a;
+    cin>>a;
+    if ((a+7)>170)
+    {
+        cout<<"Yes";
+    }
+    else
+    {
+        cout<<"NO";
+    }
+	return 0;
+}
