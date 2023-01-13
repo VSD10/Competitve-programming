@@ -1,0 +1,27 @@
+
+\\if the max rebate =c and damage for rebate=i 
+#include <iostream>
+using namespace std;
+
+int main() {
+	int a,b,c,i;
+	cin>>a;
+	for(b=0;b<a;b++)
+{
+    cin>>c>>i;
+    if (c>i)
+    {
+        cout<<i<<endl;   
+}
+else if(c==i)
+{
+    cout<<i<<endl;
+    
+}
+else
+{
+    cout<<c<<endl;
+}
+}
+	return 0;
+}
