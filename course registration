@@ -1,0 +1,21 @@
+\\for registration of course student if there  is a seat it print yes
+#include <iostream>
+using namespace std;
+
+int main() {
+	int a,b,c,d,i;
+	cin>>a;
+	for(i=0;i<a;i++)
+	{
+	    cin>>b>>c>>d;
+	    if((b+d)<=c)
+	    {
+	        cout<<"Yes\n";
+	    }
+	    else
+	    {
+	        cout<<"No\n";
+	    }
+	}
+	return 0;
+}
