@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+	    int a,b,c,d=0,n;
+			cin>>n;
+
+		    a=n;
+		    while(n>0)
+		    {
+		        b=n%10;
+		        n=n/10;
+		        d=d+(b*b*b);
+		    }
+		    if(d==a) cout<<"true";
+		    else cout<<"false";
+	
+}
