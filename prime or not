@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+ int a,n=0;
+ cin>>a;
+ for(int b=1;b<=a;b++)
+ {
+	 if(a%b==0) n++;
+	 else continue;
+ }
+	if(n==2) cout<<"true";
+	else cout<<"false";
+}
