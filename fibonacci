@@ -1,0 +1,20 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int a[100];
+int b;
+cout<<"enter a size of array";
+cin>>b;
+a[0]=1;
+a[1]=1;
+for(int c=2;c<b;c++)
+{
+    a[c]=a[c-1]+a[c-2];
+}
+cout<<"result:::::::";
+for(int c=0;c<b;c++)
+{
+    cout<<a[c]<<endl;
+}
+}
